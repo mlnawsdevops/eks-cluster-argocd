@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/MLNPublic365/eks-cluster-argocd.git
+    repoURL: https://github.com/mlnawsdevops/eks-cluster-argocd.git
     targetRevision: main # branch
     path: applications
   destination:

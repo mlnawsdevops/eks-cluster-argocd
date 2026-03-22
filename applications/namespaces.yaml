@@ -9,8 +9,8 @@ metadata:
     argocd.argoproj.io/sync-wave: "0"
 spec:
   project: default
-  source:
-    repoURL: https://github.com/MLNPublic365/eks-cluster-argocd.git
+  source: 
+    repoURL: https://github.com/mlnawsdevops/eks-cluster-argocd.git
     targetRevision: main # branch
     path: namespaces
   destination:
